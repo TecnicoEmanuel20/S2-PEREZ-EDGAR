@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.11.10 a las 10:43:01 AM PET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/objects">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.objects"/>
+    </schemaBindings>
+    <bindings scd="tns:getListAutorRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetListAutorRequest"/>
+    </bindings>
+    <bindings scd="tns:getListAutorResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetListAutorResponse"/>
+    </bindings>
+    <bindings scd="~tns:autorsoap">
+      <class ref="pe.edu.cibertec.ws.objects.Autorsoap"/>
+    </bindings>
+    <bindings scd="tns:getAutorRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetAutorRequest"/>
+    </bindings>
+    <bindings scd="tns:getAutorResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetAutorResponse"/>
+    </bindings>
+    <bindings scd="tns:postAutorRequest">
+      <class ref="pe.edu.cibertec.ws.objects.PostAutorRequest"/>
+    </bindings>
+    <bindings scd="tns:postAutorResponse">
+      <class ref="pe.edu.cibertec.ws.objects.PostAutorResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
